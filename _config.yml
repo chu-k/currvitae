@@ -47,27 +47,39 @@ about_content: | # this will include new lines to allow paragraphs
   - Scripting and automation (<mark>Python</mark>, <mark>BASH</mark>)
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Georgia Institute of Technology
+        caption: 2017 - 2022
+        sub_title: PhD Materials Science and Engineering
+      - layout: top
+        title: University of California, Los Angeles
+        caption: 2013 - 2017
+        sub_title: B.S. Materials Science and Engineering
+
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: Multiscale Concurrent Atomistic-Continuum (CAC) modeling of multicomponent alloys
+        title: (2021) Multiscale Concurrent Atomistic-Continuum (CAC) modeling of multicomponent alloys
         sub_title: Computational Materials Science
         link: https://doi.org/10.1016/j.commatsci.2021.110873
       - layout: top
-        title: Temperature and composition dependent screw dislocation mobility in austenitic stainless steels from large-scale molecular dynamics
+        title: (2020) Temperature and composition dependent screw dislocation mobility in austenitic stainless steels from large-scale molecular dynamics
         sub_title: npj Computational Materials
         link: https://doi.org/10.1038/s41524-020-00452-x
       - layout: top
-        title: Molecular Statics Analyses of Thermodynamics and Kinetics of Hydrogen Cottrell Atmosphere Formation Around Edge Dislocations in Aluminum
+        title: (2020 Molecular Statics Analyses of Thermodynamics and Kinetics of Hydrogen Cottrell Atmosphere Formation Around Edge Dislocations in Aluminum
         sub_title: JOM
         link: https://doi.org/10.1007/s11837-020-04213-5
       - layout: top
-        title: Molecular dynamics studies of InGaN growth on nonpolar (11-20) GaN surfaces
+        title: (2018) Molecular dynamics studies of InGaN growth on nonpolar (11-20) GaN surfaces
         sub_title: Physical Review Materials
         link: https://doi.org/10.1103/PhysRevMaterials.2.013402
       - layout: top
-        title: Polymorphic improvement of Stillinger-Weber potential for InGaN
+        title: (2017) Polymorphic improvement of Stillinger-Weber potential for InGaN
         sub_title: Journal of Applied Physics
         link: https://doi.org/10.1063/1.5001339
         # link_text: Project Website
@@ -115,19 +127,7 @@ content:
         description: |
           - Designed and executed molecular dynamics simulations of epitaxially grown crystalline materials using LAMMPS and high performance computing clusters. 
           - Discovered correlation between surface pitting defects and interface dislocation nucleation. 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
