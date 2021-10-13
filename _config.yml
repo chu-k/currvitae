@@ -1,7 +1,4 @@
 # Site
-repository: kvnchv/currvitae
-favicon: images/favicon.ico
-
 # Content configuration version
 version: 2
 
@@ -43,11 +40,11 @@ about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   I study fundamental deformation and strengthening mechanisms at the nano and mesoscale to inform the design of novel alloy systems. I leverage and extend existing computational approaches to accomplish these goals. 
   Skills honed during my PhD include:
-  - Molecular Dynamics/Monte Carlo methods (LAMMPS)
-  - Concurrent Atomistic-Continuum multiscale modeling (CAC)
-  - Data analysis and visualization (Scipy, Jupyter, Pandas)
-  - Scientific software development (MPI, Fortran90, C++)
-  - Scripting and automation (Python, BASH)
+  - Molecular Dynamics/Monte Carlo methods (<mark>LAMMPS</mark>)
+  - Concurrent Atomistic-Continuum multiscale modeling (<mark>CAC</mark>)
+  - Data analysis and visualization (<mark>Scipy</mark>, <mark>Jupyter</mark>, <mark>Pandas</mark>)
+  - Scientific software development (<mark>MPI</mark>, <mark>Fortran90</mark>, <mark>C++</mark>)
+  - Scripting and automation (<mark>Python</mark>, <mark>BASH</mark>)
 
 content:
   - title: Publications # Title for the section
@@ -111,7 +108,7 @@ content:
           - Designed rastering algorithm for computing interstitial and substitutional solute site binding energies
           - large scale dislocation mobility analysis in 3XX stainless steels
           - Theorized and implemented a continuum-scale diffusion model and fully pipelined execution and analysis of multi-parameter space molecular dynamics simulations.
-- layout: left
+      - layout: left
         title: Sandia National Laboratories
         sub_title: R&D Undergraduate Intern
         caption: Summer 2017
